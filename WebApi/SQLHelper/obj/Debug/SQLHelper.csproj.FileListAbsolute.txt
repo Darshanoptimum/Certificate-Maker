@@ -1,0 +1,6 @@
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 7\WebApi\SQLHelper\bin\Debug\SQLHelper.dll
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 7\WebApi\SQLHelper\bin\Debug\SQLHelper.pdb
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 7\WebApi\SQLHelper\obj\Debug\SQLHelper.csproj.AssemblyReference.cache
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 7\WebApi\SQLHelper\obj\Debug\SQLHelper.csproj.CoreCompileInputs.cache
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 7\WebApi\SQLHelper\obj\Debug\SQLHelper.dll
+C:\Users\Priya Sutariya\Desktop\Darshan Vaghani\Week 7\WebApi\SQLHelper\obj\Debug\SQLHelper.pdb

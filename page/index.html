@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+    
+    <!-- <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" -->
+        <!-- integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 mx-auto">
+                <div id="first">
+                    <div class="myform form ">
+                        <div class="logo mb-3">
+                            <div class="col-md-12 text-center">
+                                <h1>Login</h1>
+                            </div>
+                        </div>
+                        <form name="login">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Name</label>
+                                <input type="name" name="name" class="form-control" id="name" placeholder="Enter Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" name="email" class="form-control" id="email" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Password</label>
+                                <input type="password" name="password" id="password" class="form-control" placeholder="Enter Password">
+                            </div>
+                            <div class="col-md-12 text-center ">
+                                <button type="button" id="log" class=" btn btn-block mybtn btn-primary tx-tfm">Login</button>
+                            </div>
+                            <div class="col-md-12 ">
+                                <div class="login-or">
+                                    <hr class="hr-or">
+                                    <span class="span-or">or</span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <p class="text-center">Don't have account? <a id="signup">Sign up here</a></p>
+                            </div>
+                            <div class="col-md-12 ">
+                                <div class="form-group">
+                                    <p class="text-center" id="Message"></p>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+                <div id="second">
+                    <div class="myform form ">
+                        <div class="logo mb-3">
+                            <div class="col-md-12 text-center">
+                                <h1>Signup</h1>
+                            </div>
+                        </div>
+                        <form name="registration">
+
+                            <div class="form-group">
+                                <label for="exampleInputName">Name</label>
+                                <input type="text" name="lastname" class="form-control" id="newName"
+                                    placeholder="Enter Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail">Email address</label>
+                                <input type="email" name="email" class="form-control" id="newEmail"
+                                    placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputpassword">Password</label>
+                                <input type="password" name="password" id="newPassword" class="form-control"
+                                    placeholder="Enter Password">
+                            </div>
+                            <div class="col-md-12 text-center mb-3">
+                                <!-- <button id="Create" type="button" class=" btn btn-block mybtn btn-primary tx-tfm"></button> -->
+                                <button class="btn btn-block mybtn btn-primary tx-tfm" type="button" id="Create">Create
+                                    Account</button>
+                            </div>
+                            <div class="col-md-12 ">
+                                <div class="form-group">
+                                    <p class="text-center"><a id="signin">Already have an account?</a></p>
+                                </div>
+                            </div>
+                            <div class="col-md-12 ">
+                                <div class="form-group">
+                                    <p class="text-center" id="errorMessage"></p>
+                                </div>
+                            </div>
+                            
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
